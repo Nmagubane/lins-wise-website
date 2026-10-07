@@ -19,8 +19,8 @@ There is no database, no cookies and no local storage. Nothing a visitor types i
 ## Editing
 - Phone number: `WA_NUMBER` in `script.js`, plus the `tel:` links and the visible numbers in `index.html`.
 - Prices and package contents: the `.pkg` blocks in `index.html` (and the matching options in the form's Package dropdown).
-- Colours and type: the `:root` tokens at the top of `styles.css`.
+- Colours and type: the `:root` tokens at the top of `styles.css` (evergreen, mint, saffron, porcelain).
 
 ## Font
-Archivo (variable width and weight) is loaded from Google Fonts. To self-host it instead, download the woff2 files,
+Geist is loaded from Google Fonts. To self-host it instead, download the woff2 files,
 put them in `assets/fonts/`, replace the Google Fonts `<link>` with an `@font-face` rule, and remove the two `preconnect` lines.

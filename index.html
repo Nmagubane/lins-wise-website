@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en-ZA">
+<html lang="en-ZA" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lins-Wise Accountants Inc. | Accounting, tax, payroll &amp; CIPC for South African businesses</title>
   <meta name="description" content="Professional, affordable and reliable accounting and business support for start-ups, entrepreneurs, SMMEs and established businesses across South Africa. Bookkeeping, VAT, SARS, payroll, CIPC and B-BBEE. Packages from R1,500 per month.">
-  <meta name="theme-color" content="#0F2D63">
+  <meta name="theme-color" content="#0B2E2A">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 
   <meta property="og:type" content="website">
@@ -15,7 +15,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
   <script type="application/ld+json">
@@ -35,326 +35,377 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
+  <!-- ============ HEADER ============ -->
   <header class="site-header" id="top">
     <div class="wrap header-inner">
       <a class="brand" href="#top" aria-label="Lins-Wise Accountants Incorporated, back to top">
-        <img src="assets/logo-mark.svg" alt="" width="56" height="35">
+        <img src="assets/logo-mark-reverse.svg" alt="" width="52" height="33">
         <span class="brand-text">
           <span class="brand-name">Lins-Wise</span>
-          <span class="brand-sub">Accountants Incorporated</span>
+          <span class="brand-sub">Accountants Inc.</span>
         </span>
       </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn-glass btn-sm js-wa" href="https://wa.me/27799176461" target="_blank" rel="noopener">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            WhatsApp
+          </a>
+          <a class="btn btn-saffron btn-sm" href="#contact">Get a free quotation</a>
+        </div>
+      </nav>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="nav-toggle-bars" aria-hidden="true"></span>
         <span class="visually-hidden">Menu</span>
       </button>
-
-      <nav class="site-nav" id="site-nav" aria-label="Main">
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#packages">Packages</a></li>
-          <li><a href="#how">How it works</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a class="btn btn-gold btn-sm" href="#contact">Free quotation</a>
-      </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO: the T-account -->
+    <!-- ============ HERO ============ -->
     <section class="hero" aria-labelledby="hero-title">
+      <svg class="hero-line" viewBox="0 0 1440 520" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="lineFade" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0" stop-color="#9EEBC4" stop-opacity="0"/>
+            <stop offset=".25" stop-color="#9EEBC4" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#9EEBC4" stop-opacity="1"/>
+          </linearGradient>
+          <linearGradient id="areaFade" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#9EEBC4" stop-opacity=".16"/>
+            <stop offset="1" stop-color="#9EEBC4" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path class="hero-area" d="M0 470 L120 455 L240 462 L360 430 L480 438 L600 396 L720 404 L840 352 L960 360 L1080 296 L1200 270 L1320 196 L1440 150 L1440 520 L0 520 Z" fill="url(#areaFade)"/>
+        <path class="hero-path" pathLength="1" d="M0 470 L120 455 L240 462 L360 430 L480 438 L600 396 L720 404 L840 352 L960 360 L1080 296 L1200 270 L1320 196 L1440 150" fill="none" stroke="url(#lineFade)" stroke-width="2.5"/>
+      </svg>
+
       <div class="wrap hero-grid">
         <div class="hero-copy">
+          <p class="credential">
+            <span class="credential-dot" aria-hidden="true"></span>
+            Led by Sibusiso Magubane, AGA(SA)
+          </p>
           <h1 id="hero-title" class="hero-title">
-            <span>Your business.</span>
-            <span>Our numbers.</span>
-            <span>Your growth.</span>
+            <span class="ht-line">Your business.</span>
+            <span class="ht-line">Our numbers.</span>
+            <span class="ht-line">Your growth.</span>
           </h1>
           <p class="hero-lede">Professional, affordable and reliable accounting and business support for start-ups, entrepreneurs, SMMEs and established businesses across South Africa.</p>
           <div class="hero-actions">
-            <a class="btn btn-gold" href="#contact">Get a free quotation</a>
-            <a class="btn btn-ghost-light js-wa" href="https://wa.me/27799176461" target="_blank" rel="noopener">
-              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
-              WhatsApp 079 917 6461
+            <a class="btn btn-saffron btn-lg" href="#contact">Get a free quotation</a>
+            <a class="btn btn-glass btn-lg js-wa" href="https://wa.me/27799176461" target="_blank" rel="noopener">
+              <svg class="i i-wa" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+              079 917 6461
             </a>
           </div>
+          <p class="hero-from">Monthly packages from <strong>R1,500</strong></p>
         </div>
 
-        <figure class="taccount" aria-label="How the work is split: you run your business, we handle the books and compliance.">
-          <figcaption class="taccount-title">Your business</figcaption>
-          <div class="taccount-cols">
-            <div class="taccount-col">
-              <p class="taccount-head"><span>You handle</span><span class="drcr" aria-hidden="true">Dr</span></p>
-              <ul>
-                <li style="--d:1">Your customers</li>
-                <li style="--d:2">Sales and service</li>
-                <li style="--d:3">Your team</li>
-                <li style="--d:4">The next big move</li>
-              </ul>
+        <!-- The month, handled -->
+        <figure class="month" aria-labelledby="month-cap">
+          <div class="month-head">
+            <div>
+              <p class="month-kicker">A month with Lins-Wise</p>
+              <p class="month-title" id="month-cap"><span class="js-month">This month</span>, handled</p>
             </div>
-            <div class="taccount-col">
-              <p class="taccount-head"><span>We handle</span><span class="drcr" aria-hidden="true">Cr</span></p>
-              <ul>
-                <li style="--d:1">Bookkeeping</li>
-                <li style="--d:2">VAT201 returns</li>
-                <li style="--d:3">Payroll and PAYE</li>
-                <li style="--d:4">CIPC annual returns</li>
-                <li style="--d:5">SARS compliance</li>
-                <li style="--d:6">B-BBEE affidavits</li>
-              </ul>
+            <div class="month-ring" aria-hidden="true">
+              <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="18" class="ring-bg"/><circle cx="22" cy="22" r="18" class="ring-fg"/></svg>
+              <span class="ring-pct">0%</span>
             </div>
           </div>
-          <div class="taccount-totals">
-            <p><span class="total">Growing</span></p>
-            <p><span class="total">Compliant</span></p>
-          </div>
+          <ol class="month-list">
+            <li style="--i:0"><span class="tick" aria-hidden="true"></span><span class="task">Bank accounts reconciled</span><span class="tag">Books</span></li>
+            <li style="--i:1"><span class="tick" aria-hidden="true"></span><span class="task">Payroll processed and payslips sent</span><span class="tag">Payroll</span></li>
+            <li style="--i:2"><span class="tick" aria-hidden="true"></span><span class="task">VAT201 prepared and submitted</span><span class="tag">SARS</span></li>
+            <li style="--i:3"><span class="tick" aria-hidden="true"></span><span class="task">CIPC compliance checked</span><span class="tag">CIPC</span></li>
+            <li style="--i:4"><span class="tick" aria-hidden="true"></span><span class="task">Management accounts delivered</span><span class="tag">Reporting</span></li>
+          </ol>
+          <figcaption class="month-foot">
+            <span class="month-done">Everything filed. Back to business.</span>
+          </figcaption>
         </figure>
       </div>
 
-      <div class="wrap hero-strip">
-        <p>Accounting, tax, payroll, CIPC, B-BBEE and compliance from one firm, for businesses anywhere in South Africa.</p>
+      <div class="wrap hero-services" aria-label="What we do">
+        <ul>
+          <li>Accounting</li>
+          <li>Tax and SARS</li>
+          <li>Payroll</li>
+          <li>CIPC</li>
+          <li>B-BBEE</li>
+          <li>Compliance</li>
+        </ul>
       </div>
     </section>
 
-    <!-- SERVICES -->
+    <!-- ============ SERVICES (bento) ============ -->
     <section class="section services" id="services" aria-labelledby="services-title">
-      <div class="wrap services-grid">
-        <div class="section-intro sticky">
-          <h2 id="services-title">Everything your books and the regulators ask of you</h2>
-          <p>From registering a new company to signing off annual financial statements. Open any service to see exactly what's covered.</p>
-          <a class="text-link" href="#contact">Ask about a service</a>
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="services-title">Every number your business runs on, looked after</h2>
+          <p>From registering a new company to signing off annual financial statements. Open any service to see exactly what's included.</p>
         </div>
 
-        <div class="service-list">
-          <details class="service" open>
-            <summary>
-              <span class="service-name">Accounting and bookkeeping</span>
-              <span class="service-sum">Clean, up-to-date books and statements you can rely on.</span>
-            </summary>
-            <ul>
-              <li>Bookkeeping</li>
-              <li>Bank reconciliations</li>
-              <li>Monthly trial balance</li>
-              <li>Management accounts</li>
-              <li>Annual financial statements</li>
-              <li>Financial statement compilation</li>
-              <li>Independent reviews</li>
-              <li>Accounting system setup</li>
-            </ul>
-          </details>
+        <div class="bento">
+          <!-- Accounting -->
+          <article class="tile tile-xl" data-service="accounting">
+            <div class="tile-text">
+              <h3>Accounting and bookkeeping</h3>
+              <p>Clean, reconciled books every month, and statements you can hand to a bank or investor with confidence.</p>
+              <button class="tile-more" type="button" data-open="dlg-accounting">See what's included</button>
+            </div>
+            <div class="viz viz-recon" aria-hidden="true">
+              <div class="recon-head"><span>Bank statement</span><span>Ledger</span></div>
+              <div class="recon-row"><span>Takealot payout</span><span class="amt">R 12 480.00</span><span class="match"></span><span class="amt">R 12 480.00</span></div>
+              <div class="recon-row"><span>Office rent</span><span class="amt neg">–R 8 500.00</span><span class="match"></span><span class="amt neg">–R 8 500.00</span></div>
+              <div class="recon-row"><span>Client EFT, INV-0412</span><span class="amt">R 23 000.00</span><span class="match"></span><span class="amt">R 23 000.00</span></div>
+              <div class="recon-row"><span>Fuel</span><span class="amt neg">–R 1 245.60</span><span class="match"></span><span class="amt neg">–R 1 245.60</span></div>
+              <div class="recon-foot"><span>Difference</span><span class="amt zero">R 0.00</span></div>
+            </div>
+          </article>
 
-          <details class="service">
-            <summary>
-              <span class="service-name">Tax and SARS</span>
-              <span class="service-sum">Registrations, returns and submissions, done on time.</span>
-            </summary>
-            <ul>
-              <li>SARS registration</li>
-              <li>VAT registration</li>
-              <li>VAT201 preparation and submission</li>
-              <li>VAT reconciliation and review</li>
-              <li>Annual tax returns</li>
-              <li>Tax clearance assistance</li>
-              <li>SARS compliance monitoring</li>
-            </ul>
-          </details>
+          <!-- Tax -->
+          <article class="tile tile-tall" data-service="tax">
+            <div class="viz viz-vat" aria-hidden="true">
+              <div class="vat-form">
+                <span class="vat-label">VAT201</span>
+                <span class="vat-line"></span><span class="vat-line short"></span><span class="vat-line"></span>
+                <span class="vat-status">Submitted</span>
+              </div>
+            </div>
+            <div class="tile-text">
+              <h3>Tax and SARS</h3>
+              <p>Registrations, VAT returns and annual tax returns, prepared properly and submitted on time.</p>
+              <button class="tile-more" type="button" data-open="dlg-tax">See what's included</button>
+            </div>
+          </article>
 
-          <details class="service">
-            <summary>
-              <span class="service-name">CIPC and company secretarial</span>
-              <span class="service-sum">Keep your company record current with CIPC.</span>
-            </summary>
-            <ul>
-              <li>Annual returns</li>
-              <li>Beneficial ownership filings</li>
-              <li>Director changes</li>
-              <li>Registered address changes</li>
-              <li>Company name changes</li>
-              <li>MOI amendments</li>
-              <li>Shareholding changes</li>
-              <li>Company deregistration</li>
-            </ul>
-          </details>
+          <!-- Payroll -->
+          <article class="tile" data-service="payroll">
+            <div class="viz viz-payslip" aria-hidden="true">
+              <div class="slip">
+                <div class="slip-row"><span>Gross pay</span><span></span></div>
+                <div class="slip-row"><span>PAYE</span><span></span></div>
+                <div class="slip-row"><span>UIF</span><span></span></div>
+                <div class="slip-row net"><span>Net pay</span><span></span></div>
+              </div>
+            </div>
+            <div class="tile-text">
+              <h3>Payroll</h3>
+              <p>Your people paid correctly, with PAYE, UIF and SDL taken care of.</p>
+              <button class="tile-more" type="button" data-open="dlg-payroll">See what's included</button>
+            </div>
+          </article>
 
-          <details class="service">
-            <summary>
-              <span class="service-name">Payroll</span>
-              <span class="service-sum">Your people paid correctly, every month.</span>
-            </summary>
-            <ul>
-              <li>Payroll processing</li>
-              <li>Payslips and employee records</li>
-              <li>PAYE, UIF and SDL registration</li>
-              <li>EMP501 reconciliations</li>
-              <li>IRP5 certificates</li>
-              <li>Payroll journals</li>
-            </ul>
-          </details>
+          <!-- CIPC -->
+          <article class="tile" data-service="cipc">
+            <div class="viz viz-cipc" aria-hidden="true">
+              <div class="co-card">
+                <span class="co-name">Your Company (Pty) Ltd</span>
+                <span class="co-meta">Annual return</span>
+                <span class="co-badge">Filed</span>
+              </div>
+            </div>
+            <div class="tile-text">
+              <h3>CIPC and company secretarial</h3>
+              <p>Annual returns, director changes and every amendment in between.</p>
+              <button class="tile-more" type="button" data-open="dlg-cipc">See what's included</button>
+            </div>
+          </article>
 
-          <details class="service">
-            <summary>
-              <span class="service-name">B-BBEE</span>
-              <span class="service-sum">Affidavits, scorecards and verification preparation.</span>
-            </summary>
-            <ul>
-              <li>B-BBEE affidavit assistance</li>
-              <li>B-BBEE classification and scorecards</li>
-              <li>B-BBEE compliance files</li>
-              <li>QSE readiness assessment</li>
-              <li>Verification preparation</li>
-            </ul>
-          </details>
+          <!-- B-BBEE -->
+          <article class="tile" data-service="bbbee">
+            <div class="viz viz-bbbee" aria-hidden="true">
+              <div class="doc"><span class="doc-title">B-BBEE affidavit</span><span class="doc-line"></span><span class="doc-line short"></span><span class="doc-sign"></span></div>
+            </div>
+            <div class="tile-text">
+              <h3>B-BBEE</h3>
+              <p>Affidavits, scorecards and verification preparation.</p>
+              <button class="tile-more" type="button" data-open="dlg-bbbee">See what's included</button>
+            </div>
+          </article>
 
-          <details class="service">
-            <summary>
-              <span class="service-name">Business compliance and advisory</span>
-              <span class="service-sum">Plans, forecasts and the paperwork that keeps you trading.</span>
-            </summary>
-            <ul>
-              <li>Business advisory and consultation</li>
-              <li>Financial analysis and business plans</li>
-              <li>Cash-flow forecasting</li>
-              <li>Budget preparation</li>
-              <li>SARS and CIPC compliance</li>
-              <li>COIDA and UIF support</li>
-            </ul>
-          </details>
+          <!-- Advisory -->
+          <article class="tile tile-wide" data-service="advisory">
+            <div class="tile-text">
+              <h3>Advisory and compliance</h3>
+              <p>Budgets, cash-flow forecasts and business plans, so your next decision is based on your numbers.</p>
+              <button class="tile-more" type="button" data-open="dlg-advisory">See what's included</button>
+            </div>
+            <div class="viz viz-bars" aria-hidden="true">
+              <span style="--h:38%"></span><span style="--h:46%"></span><span style="--h:42%"></span><span style="--h:58%"></span><span style="--h:64%"></span><span style="--h:61%"></span><span style="--h:78%"></span><span style="--h:88%"></span>
+            </div>
+          </article>
 
-          <details class="service">
-            <summary>
-              <span class="service-name">New business registration</span>
-              <span class="service-sum">Start trading properly from day one.</span>
-            </summary>
-            <ul>
-              <li>Company registration (Pty) Ltd</li>
-              <li>Name reservation</li>
-              <li>SARS registration</li>
-              <li>VAT registration</li>
-              <li>PAYE, UIF and SDL registration</li>
-              <li>COIDA registration</li>
-              <li>Business bank-account setup</li>
-              <li>Accounting system setup</li>
-            </ul>
-          </details>
+          <!-- New business -->
+          <article class="tile tile-wide tile-dark" data-service="newbiz">
+            <div class="tile-text">
+              <h3>Starting a business?</h3>
+              <p>We register your company and set up everything it needs to trade properly from day one.</p>
+              <button class="tile-more" type="button" data-open="dlg-newbiz">See what's included</button>
+            </div>
+            <ol class="viz viz-steps" aria-hidden="true">
+              <li>Name reserved</li>
+              <li>Company registered</li>
+              <li>SARS and VAT</li>
+              <li>Bank account open</li>
+            </ol>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- PACKAGES -->
-    <section class="section packages" id="packages" aria-labelledby="packages-title">
+    <!-- Service detail dialogs -->
+    <dialog class="sheet" id="dlg-accounting" aria-labelledby="dlg-accounting-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-accounting-t">Accounting and bookkeeping</h3>
+        <ul class="checks"><li>Bookkeeping</li><li>Bank reconciliations</li><li>Monthly trial balance</li><li>Management accounts</li><li>Annual financial statements</li><li>Financial statement compilation</li><li>Independent reviews</li><li>Accounting system setup</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="Accounting and bookkeeping">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <dialog class="sheet" id="dlg-tax" aria-labelledby="dlg-tax-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-tax-t">Tax and SARS</h3>
+        <ul class="checks"><li>SARS registration</li><li>VAT registration</li><li>VAT201 preparation and submission</li><li>VAT reconciliation and review</li><li>Annual tax returns</li><li>Tax clearance assistance</li><li>SARS compliance monitoring</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="Tax and SARS">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <dialog class="sheet" id="dlg-payroll" aria-labelledby="dlg-payroll-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-payroll-t">Payroll</h3>
+        <ul class="checks"><li>Payroll processing</li><li>Payslips and employee records</li><li>PAYE, UIF and SDL registration</li><li>EMP501 reconciliations</li><li>IRP5 certificates</li><li>Payroll journals</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="Payroll">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <dialog class="sheet" id="dlg-cipc" aria-labelledby="dlg-cipc-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-cipc-t">CIPC and company secretarial</h3>
+        <ul class="checks"><li>Annual returns</li><li>Beneficial ownership filings</li><li>Director changes</li><li>Registered address changes</li><li>Company name changes</li><li>MOI amendments</li><li>Shareholding changes</li><li>Company deregistration</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="CIPC and company secretarial">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <dialog class="sheet" id="dlg-bbbee" aria-labelledby="dlg-bbbee-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-bbbee-t">B-BBEE</h3>
+        <ul class="checks"><li>B-BBEE affidavit assistance</li><li>B-BBEE classification and scorecards</li><li>B-BBEE compliance files</li><li>QSE readiness assessment</li><li>Verification preparation</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="B-BBEE">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <dialog class="sheet" id="dlg-advisory" aria-labelledby="dlg-advisory-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-advisory-t">Advisory and compliance</h3>
+        <ul class="checks"><li>Business advisory and consultation</li><li>Financial analysis and business plans</li><li>Cash-flow forecasting</li><li>Budget preparation</li><li>SARS and CIPC compliance</li><li>COIDA and UIF support</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="Business compliance and advisory">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+    <dialog class="sheet" id="dlg-newbiz" aria-labelledby="dlg-newbiz-t">
+      <div class="sheet-inner">
+        <h3 id="dlg-newbiz-t">New business registration</h3>
+        <ul class="checks"><li>Company registration (Pty) Ltd</li><li>Name reservation</li><li>SARS registration</li><li>VAT registration</li><li>PAYE, UIF and SDL registration</li><li>COIDA registration</li><li>Business bank-account setup</li><li>Accounting system setup</li></ul>
+        <div class="sheet-actions"><a class="btn btn-saffron" href="#contact" data-service-pick="New business registration">Get a quotation for this</a><button class="btn btn-quiet js-close" type="button">Close</button></div>
+      </div>
+    </dialog>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
       <div class="wrap">
-        <div class="packages-head">
-          <div>
-            <h2 id="packages-title">Monthly packages</h2>
-            <p>Choose the support that fits your business and budget. Not sure? Tell us where your business is today.</p>
+        <div class="section-head on-dark">
+          <h2 id="pricing-title">Simple monthly pricing</h2>
+          <p>Four packages, one clear price each. Choose the level of support your business needs today, and move up as it grows.</p>
+        </div>
+
+        <div class="plans">
+          <div class="plan-tabs" role="tablist" aria-label="Packages">
+            <button role="tab" id="tab-starter" aria-controls="panel-starter" aria-selected="false" tabindex="-1" data-plan="starter">
+              <span class="pt-name">Starter</span><span class="pt-price">R1,500</span>
+            </button>
+            <button role="tab" id="tab-growth" aria-controls="panel-growth" aria-selected="true" data-plan="growth">
+              <span class="pt-name">Growth</span><span class="pt-price">R3,500</span>
+            </button>
+            <button role="tab" id="tab-professional" aria-controls="panel-professional" aria-selected="false" tabindex="-1" data-plan="professional">
+              <span class="pt-name">Professional</span><span class="pt-price">R5,500</span>
+            </button>
+            <button role="tab" id="tab-partner" aria-controls="panel-partner" aria-selected="false" tabindex="-1" data-plan="partner">
+              <span class="pt-name">Business Partner</span><span class="pt-price">from R8,500</span>
+            </button>
+            <span class="plan-indicator" aria-hidden="true"></span>
           </div>
 
-          <fieldset class="chooser">
-            <legend>Where is your business today?</legend>
-            <div class="chooser-options">
-              <label><input type="radio" name="stage" value="starter"><span>Just started, or a micro business</span></label>
-              <label><input type="radio" name="stage" value="growth"><span>Growing and registered for VAT</span></label>
-              <label><input type="radio" name="stage" value="professional"><span>Established, with staff on payroll</span></label>
-              <label><input type="radio" name="stage" value="partner"><span>I want a full finance department</span></label>
-            </div>
-          </fieldset>
+          <div class="plan-panels">
+            <section class="plan" role="tabpanel" id="panel-starter" aria-labelledby="tab-starter" hidden>
+              <div class="plan-summary">
+                <h3>Starter</h3>
+                <p class="plan-for">Perfect for micro businesses</p>
+                <p class="plan-price"><span class="cur">R</span><span class="num" data-value="1500">1,500</span><span class="per">per month</span></p>
+                <a class="btn btn-saffron btn-lg" href="#contact" data-pkg-pick="Starter (R1,500 per month)">Get a quote for Starter</a>
+              </div>
+              <ul class="checks plan-list"><li>Bookkeeping</li><li>Bank reconciliation</li><li>Monthly trial balance</li><li>CIPC compliance</li><li>SARS compliance monitoring</li></ul>
+            </section>
+
+            <section class="plan" role="tabpanel" id="panel-growth" aria-labelledby="tab-growth">
+              <div class="plan-summary">
+                <h3>Growth</h3>
+                <p class="plan-for">Ideal for growing SMEs</p>
+                <p class="plan-price"><span class="cur">R</span><span class="num" data-value="3500">3,500</span><span class="per">per month</span></p>
+                <a class="btn btn-saffron btn-lg" href="#contact" data-pkg-pick="Growth (R3,500 per month)">Get a quote for Growth</a>
+              </div>
+              <ul class="checks plan-list"><li>Bookkeeping</li><li>VAT</li><li>Management accounts</li><li>SARS compliance</li><li>CIPC compliance</li><li>Monthly financial review</li></ul>
+            </section>
+
+            <section class="plan" role="tabpanel" id="panel-professional" aria-labelledby="tab-professional" hidden>
+              <div class="plan-summary">
+                <h3>Professional</h3>
+                <p class="plan-for">For established SMEs</p>
+                <p class="plan-price"><span class="cur">R</span><span class="num" data-value="5500">5,500</span><span class="per">per month</span></p>
+                <a class="btn btn-saffron btn-lg" href="#contact" data-pkg-pick="Professional (R5,500 per month)">Get a quote for Professional</a>
+              </div>
+              <ul class="checks plan-list"><li>Full accounting</li><li>VAT</li><li>Payroll (up to 10 employees)</li><li>PAYE, UIF and SDL</li><li>Management accounts</li><li>CIPC and SARS compliance</li><li>Annual tax return</li><li>Year-end financials</li></ul>
+            </section>
+
+            <section class="plan" role="tabpanel" id="panel-partner" aria-labelledby="tab-partner" hidden>
+              <div class="plan-summary">
+                <h3>Business Partner</h3>
+                <p class="plan-for">Your outsourced finance department</p>
+                <p class="plan-price"><span class="from">From</span><span class="cur">R</span><span class="num" data-value="8500">8,500</span><span class="per">per month</span></p>
+                <a class="btn btn-saffron btn-lg" href="#contact" data-pkg-pick="Business Partner (from R8,500 per month)">Get a quote for Business Partner</a>
+              </div>
+              <ul class="checks plan-list"><li>Complete accounting function</li><li>Monthly management accounts</li><li>VAT</li><li>Payroll</li><li>SARS and CIPC compliance</li><li>Budgeting and cash-flow forecasting</li><li>Ratio analysis</li><li>Monthly management meeting</li><li>Annual financial statements</li></ul>
+            </section>
+          </div>
         </div>
 
-        <div class="ledger" role="list">
-          <article class="pkg" data-pkg="starter" role="listitem" aria-labelledby="pkg-starter">
-            <header>
-              <h3 id="pkg-starter">Starter</h3>
-              <p class="pkg-for">For micro businesses</p>
-              <p class="pkg-price"><span class="amt">R1,500</span> <span class="per">per month</span></p>
-            </header>
-            <ul class="ticks">
-              <li>Bookkeeping</li>
-              <li>Bank reconciliation</li>
-              <li>Monthly trial balance</li>
-              <li>CIPC compliance</li>
-              <li>SARS compliance monitoring</li>
-            </ul>
-            <a class="btn btn-line js-pkg" href="#contact" data-pkg-name="Starter (R1,500 per month)" aria-label="Get a quote for the Starter package">Get a quote</a>
-          </article>
-
-          <article class="pkg" data-pkg="growth" role="listitem" aria-labelledby="pkg-growth">
-            <header>
-              <h3 id="pkg-growth">Growth</h3>
-              <p class="pkg-for">For growing SMEs</p>
-              <p class="pkg-price"><span class="amt">R3,500</span> <span class="per">per month</span></p>
-            </header>
-            <ul class="ticks">
-              <li>Bookkeeping</li>
-              <li>VAT</li>
-              <li>Management accounts</li>
-              <li>SARS compliance</li>
-              <li>CIPC compliance</li>
-              <li>Monthly financial review</li>
-            </ul>
-            <a class="btn btn-line js-pkg" href="#contact" data-pkg-name="Growth (R3,500 per month)" aria-label="Get a quote for the Growth package">Get a quote</a>
-          </article>
-
-          <article class="pkg" data-pkg="professional" role="listitem" aria-labelledby="pkg-professional">
-            <header>
-              <h3 id="pkg-professional">Professional</h3>
-              <p class="pkg-for">For established SMEs</p>
-              <p class="pkg-price"><span class="amt">R5,500</span> <span class="per">per month</span></p>
-            </header>
-            <ul class="ticks">
-              <li>Full accounting</li>
-              <li>VAT</li>
-              <li>Payroll (up to 10 employees)</li>
-              <li>PAYE, UIF and SDL</li>
-              <li>Management accounts</li>
-              <li>CIPC and SARS compliance</li>
-              <li>Annual tax return</li>
-              <li>Year-end financials</li>
-            </ul>
-            <a class="btn btn-line js-pkg" href="#contact" data-pkg-name="Professional (R5,500 per month)" aria-label="Get a quote for the Professional package">Get a quote</a>
-          </article>
-
-          <article class="pkg" data-pkg="partner" role="listitem" aria-labelledby="pkg-partner">
-            <header>
-              <h3 id="pkg-partner">Business Partner</h3>
-              <p class="pkg-for">Your outsourced finance department</p>
-              <p class="pkg-price"><span class="from">From</span> <span class="amt">R8,500</span> <span class="per">per month</span></p>
-            </header>
-            <ul class="ticks">
-              <li>Complete accounting function</li>
-              <li>Monthly management accounts</li>
-              <li>VAT</li>
-              <li>Payroll</li>
-              <li>SARS and CIPC compliance</li>
-              <li>Budgeting and cash-flow forecasting</li>
-              <li>Ratio analysis</li>
-              <li>Monthly management meeting</li>
-              <li>Annual financial statements</li>
-            </ul>
-            <a class="btn btn-line js-pkg" href="#contact" data-pkg-name="Business Partner (from R8,500 per month)" aria-label="Get a quote for the Business Partner package">Get a quote</a>
-          </article>
-        </div>
-
-        <p class="packages-note">Need something in between? Every service on this page is also available on its own. Ask for a tailored quotation.</p>
+        <p class="pricing-note">Need only one or two services? Everything on this page is also available on its own. <a href="#contact">Ask for a tailored quotation</a>.</p>
       </div>
     </section>
 
-    <!-- HOW IT WORKS -->
-    <section class="section how" id="how" aria-labelledby="how-title">
+    <!-- ============ PROCESS ============ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
       <div class="wrap">
-        <h2 id="how-title">Getting started takes one message</h2>
+        <div class="section-head">
+          <h2 id="process-title">Getting started takes one message</h2>
+        </div>
         <ol class="steps">
           <li>
+            <span class="step-n" aria-hidden="true">1</span>
             <h3>Tell us what you need</h3>
             <p>WhatsApp, call or fill in the form. A few lines about your business is enough to start.</p>
           </li>
           <li>
+            <span class="step-n" aria-hidden="true">2</span>
             <h3>Get your free quotation</h3>
             <p>We recommend a package, or a tailored mix of services, with a clear monthly price.</p>
           </li>
           <li>
+            <span class="step-n" aria-hidden="true">3</span>
             <h3>Hand over the admin</h3>
             <p>We take care of the books and the deadlines so you can get back to running your business.</p>
           </li>
@@ -362,70 +413,64 @@
       </div>
     </section>
 
-    <!-- ABOUT -->
+    <!-- ============ ABOUT ============ -->
     <section class="section about" id="about" aria-labelledby="about-title">
       <div class="wrap about-grid">
-        <div class="about-copy">
+        <div class="about-main">
           <h2 id="about-title">One trusted partner for all your financial needs</h2>
-          <dl class="promises">
-            <div>
-              <dt>Competitive, transparent pricing</dt>
-              <dd>Fixed monthly packages with the price on the page, not hidden in the fine print.</dd>
+          <div class="promises">
+            <div class="promise">
+              <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tag"/></svg>
+              <h3>Competitive, transparent pricing</h3>
+              <p>Fixed monthly packages with the price on the page, not hidden in the fine print.</p>
             </div>
-            <div>
-              <dt>A professional, experienced team</dt>
-              <dd>Qualified accountants who know South African tax, company and labour requirements.</dd>
+            <div class="promise">
+              <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg>
+              <h3>A professional, experienced team</h3>
+              <p>Accountants who know South African tax, company and payroll requirements.</p>
             </div>
-            <div>
-              <dt>Solutions tailored to you</dt>
-              <dd>A one-person start-up and a fifty-person company need different things. We build around yours.</dd>
+            <div class="promise">
+              <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-target"/></svg>
+              <h3>Solutions tailored to you</h3>
+              <p>A one-person start-up and a fifty-person company need different things. We build around yours.</p>
             </div>
-            <div>
-              <dt>Everything in one place</dt>
-              <dd>Accounting, tax, payroll, CIPC and B-BBEE handled by one firm that knows your whole picture.</dd>
+            <div class="promise">
+              <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-link"/></svg>
+              <h3>Everything in one place</h3>
+              <p>Accounting, tax, payroll, CIPC and B-BBEE handled by one firm that knows your whole picture.</p>
             </div>
-          </dl>
+          </div>
         </div>
 
         <aside class="director" aria-label="From our director">
-          <blockquote>
-            <p>Let's build your success together.</p>
-          </blockquote>
-          <div class="director-id">
-            <span class="monogram" aria-hidden="true">SM</span>
-            <p>
-              <strong>Sibusiso Magubane</strong>
-              <span>AGA(SA), Co-founder and Director</span>
-            </p>
-          </div>
+          <span class="director-mono" aria-hidden="true">SM</span>
+          <blockquote><p>Let's build your success together.</p></blockquote>
+          <p class="director-id"><strong>Sibusiso Magubane</strong><span>AGA(SA), Co-founder and Director</span></p>
         </aside>
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- ============ CONTACT ============ -->
     <section class="section contact" id="contact" aria-labelledby="contact-title">
       <div class="wrap contact-grid">
         <div class="contact-copy">
           <h2 id="contact-title">Get a free quotation</h2>
-          <p>Tell us a little about your business and we'll come back to you with a quotation.</p>
+          <p>Tell us a little about your business and we'll come back to you with a quotation. Prefer to talk? We're one message away.</p>
 
           <div class="contact-direct">
-            <a class="direct-wa js-wa" href="https://wa.me/27799176461" target="_blank" rel="noopener">
-              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
-              <span>
-                <strong>Chat on WhatsApp</strong>
-                <span>079 917 6461</span>
-              </span>
+            <a class="direct direct-wa js-wa" href="https://wa.me/27799176461" target="_blank" rel="noopener">
+              <span class="direct-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></span>
+              <span class="direct-text"><strong>Chat on WhatsApp</strong><span>079 917 6461</span></span>
             </a>
-            <a class="direct-call" href="tel:+27799176461">
-              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>
-              <span>
-                <strong>Call us</strong>
-                <span>079 917 6461</span>
-              </span>
+            <a class="direct direct-call" href="tel:+27799176461">
+              <span class="direct-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg></span>
+              <span class="direct-text"><strong>Call us</strong><span>079 917 6461</span></span>
             </a>
           </div>
-          <p class="contact-area">Serving businesses across South Africa.</p>
+          <p class="contact-area">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>
+            Serving businesses across South Africa
+          </p>
         </div>
 
         <form class="quote-form" id="quote-form" action="https://formsubmit.co/ssmagubane97@gmail.com" method="POST" novalidate>
@@ -493,11 +538,10 @@
             <textarea id="f-message" name="Message" rows="4" placeholder="What you do, roughly how many employees, whether you're VAT registered, and anything that's urgent."></textarea>
           </div>
 
-          <p class="privacy">We use these details only to reply to your enquiry. This website doesn't store anything you type.</p>
-
-          <button class="btn btn-gold btn-block" type="submit">
+          <button class="btn btn-saffron btn-lg btn-block" type="submit">
             <span class="btn-label">Send my request</span>
           </button>
+          <p class="privacy">We use these details only to reply to your enquiry. This website doesn't store anything you type.</p>
 
           <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
         </form>
@@ -505,17 +549,18 @@
     </section>
   </main>
 
+  <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
-    <div class="wrap footer-grid">
+    <div class="wrap footer-top">
       <div class="footer-brand">
-        <p class="footer-name">Lins-Wise Accountants Incorporated</p>
-        <p>Accounting, tax, payroll, CIPC, B-BBEE and compliance for South African businesses.</p>
+        <p class="footer-tag">Your business. Our numbers. Your growth.</p>
       </div>
       <nav aria-label="Footer">
         <ul>
           <li><a href="#services">Services</a></li>
-          <li><a href="#packages">Packages</a></li>
-          <li><a href="#how">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -524,9 +569,12 @@
         <a href="tel:+27799176461">Call 079 917 6461</a>
       </div>
     </div>
+    <div class="wrap">
+      <p class="footer-word" aria-hidden="true">Lins-Wise</p>
+    </div>
     <div class="wrap footer-base">
       <p>&copy; <span id="year">2026</span> Lins-Wise Accountants Incorporated</p>
-      <p>Let's build your success together.</p>
+      <p>Accounting, tax, payroll, CIPC, B-BBEE and compliance</p>
     </div>
   </footer>
 
@@ -543,6 +591,21 @@
     </symbol>
     <symbol id="i-phone" viewBox="0 0 24 24">
       <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3.5h3.2l1.6 4.2-2.1 1.4a11.5 11.5 0 0 0 7.2 7.2l1.4-2.1 4.2 1.6V19a1.8 1.8 0 0 1-1.9 1.8A16.7 16.7 0 0 1 3.2 5.4 1.8 1.8 0 0 1 5 3.5Z"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    </symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M3 12.2V4h8.2L21 13.8 13.8 21 3 12.2Z"/><circle cx="7.5" cy="8.5" r="1.4" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M12 3 4.5 6v5.5c0 4.6 3.2 8.2 7.5 9.5 4.3-1.3 7.5-4.9 7.5-9.5V6L12 3Z"/><path fill="none" stroke="currentColor" stroke-width="1.7" d="m8.8 12 2.2 2.2 4.4-4.4"/>
+    </symbol>
+    <symbol id="i-target" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="1.3" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-link" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>
     </symbol>
   </svg>
 
